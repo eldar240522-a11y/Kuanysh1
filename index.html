@@ -242,15 +242,36 @@
         </form>
       </div>
 
-      <aside class="card">
-        <h3>Байланыс мәліметтері</h3>
-        <p style="text-indent:24px">📞 +7 (777) 123 45 67<br>📩 example@example.com<br>📍 Түркістан қаласы, Қазақстан</p>
-        <div style="margin-top:10px">
-          <a class="btn" href="mailto:example@example.com">Электрондық пошта</a>
-        </div>
-      </aside>
-    </div>
-  </section>
+      <!-- Font Awesome қосу (head ішіне) -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+<!-- Жаңартылған бөлік -->
+<aside class="card">
+  <h3>Байланыс мәліметтері</h3>
+  <p style="text-indent:24px">
+    📞 <a href="tel:+77715784350" style="text-decoration:none; color:inherit;">+7 (771) 578 43 50</a><br>
+    📩 <a href="mailto:example@example.com" style="text-decoration:none; color:inherit;">example@example.com</a><br>
+    📍 Түркістан қаласы, Қазақстан
+  </p>
+
+  <div style="margin-top:12px; display:flex; gap:15px; align-items:center;">
+    <a href="https://www.instagram.com/abdihalikovv.1?igsh=aXJtNnB5M3FiMDhv" target="_blank" 
+       style="color:#E1306C; font-size:26px; transition:0.3s;">
+      <i class="fab fa-instagram"></i>
+    </a>
+
+    <a href="https://wa.me/77715784350" target="_blank" 
+       style="color:#25D366; font-size:26px; transition:0.3s;">
+      <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <a href="mailto:example@example.com" 
+       style="color:#0078D4; font-size:26px; transition:0.3s;">
+      <i class="fa-solid fa-envelope"></i>
+    </a>
+  </div>
+</aside>
+
 
   <footer>
     © <span id="year"></span> Әбдіхалық Қуанышбек  — Барлық құқықтар қорғалған.
@@ -332,4 +353,5 @@
   </script>
 </body>
 </html>
+
 
